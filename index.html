@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<head>
+<head>Movie Guide
   <style>
     body {
+      background-color: black;
       padding-top: 40px;
       padding-bottom: 40px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
     }
    .banner-image {
     width: 128px;
@@ -16,14 +21,23 @@
   height: 48px;
   border-radius: 48px;
   object-fit: cover;
-}
-
-body {
-  background-color: black;
+  flex-wrap: wrap;
 }
 
 .name {
   color: #fffffe;
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
 }
 
 .social-icons a {
@@ -33,21 +47,28 @@ body {
 
 .link {
   background-color: #f25042;
+  display: flex;
+  align-items: center;
+  padding: 5px;
 }
 
 .link a {
   color: #001e1d;
   text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
 }
 
 .items {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  max-width: 640px;
+  max-width: 650px;
+  flex-grow: 1;
 }
+
 </style>
-  </head>
+</head>
 <body>
   <div class="items">
   <div class="banner"></div>
@@ -59,8 +80,7 @@ body {
     Movie Guide
   </div>
 
-  <div class="items">
-  <div class="social-icons"></div>
+  <div class="social-icons">
     <a href="https://www.netflix.com/" target="_blank">
       Netflix
     </a>
@@ -80,8 +100,8 @@ body {
     <img
       src="https://static1.pocketlintimages.com/wordpress/wp-content/uploads/139222-tv-news-feature-how-to-watch-netflix-on-tv-your-complete-guide-image10-herx9auuwr.jpg"
       alt="Netflix on TV"
-      class="thumbnail">
-    <a target="_blank" href="https://www.netflix.com/">Most Popular Streaming Service
+      class="thumbnail"> 
+      <a target="_blank" href="https://www.netflix.com/">Most Popular Streaming Service
       — Netflix</a>
   </div>
 
@@ -93,7 +113,7 @@ body {
     <a target="_blank"
       href="https://www.max.com/">(previously known as HBO Max) — Max is a Streaming Service for Movies and TV shows
       </a>
-  </>
+    </div>
 
   <div class="items">
   <div class="link"></div>
@@ -103,7 +123,7 @@ body {
       class="thumbnail">
     <a target="_blank" href="https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F">
       Arguably best streaming service for TV shows — Hulu</a>
-  </>
+    </div>
 
   <div class="items">
     <div class="link"></div>
@@ -113,7 +133,7 @@ body {
       class="thumbnail">
     <a target="_blank" href="https://www.imdb.com/tv/">
       Movie and TV show Release Dates and Rankings — IMDB</a>
-  </>
+    </div>
 
   <div class="items">
   <div class="link"></div>
