@@ -1,161 +1,166 @@
 <!DOCTYPE html>
-<head>Movie Guide
-  <style>
-    body {
-      background-color: black;
-      padding-top: 40px;
-      padding-bottom: 40px;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-    }
-   .banner-image {
-    width: 128px;
-    height: 128px;
-    object-fit: cover;
-    border-radius: 128px;
-  }
-.thumbnail {
-  width: 48px;
-  height: 48px;
-  border-radius: 48px;
-  object-fit: cover;
-  flex-wrap: wrap;
-}
+  <head>
+    <meta charset="UTF-8">
+    <title>Movie Guide</title>
+    
+    <style>
+      body {
+        background-color: black;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      .banner-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+        flex-wrap: wrap;
+      }
 
-.name {
-  color: #fffffe;
-  display: flex;
-  justify-content: center;
-}
+      .name {
+        color: #fffffe;
+        display: flex;
+        justify-content: center;
+      }
 
-.banner {
-  display: flex;
-  justify-content: center;
-}
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
 
-.social-icons {
-  display: flex;
-  justify-content: space-around;
-}
+      .social-icons {
+        display: flex;
+        justify-content: space-between;
+      }
 
-.social-icons a {
-  color: #fffffe;
-  text-decoration: none;
-}
+      .social-icons a {
+        color: #fffffe;
+        text-decoration: none;
+      }
 
-.link {
-  background-color: #f25042;
-  display: flex;
-  align-items: center;
-  padding: 5px;
-}
+      .link {
+        background-color: #f25042;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
 
-.link a {
-  color: #001e1d;
-  text-decoration: none;
-  text-align: center;
-  flex-grow: 1;
-}
+      .link a {
+        color: #001e1d;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
 
-.items {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  max-width: 650px;
-  flex-grow: 1;
-}
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 650px;
+        flex-grow: 1;
+      }
 
-</style>
-</head>
-<body>
-  <div class="items">
-  <div class="banner"></div>
-    <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/07/netflix-640x360.jpg" alt="film selection" class="banner-image">
-  </div>
+    </style>
+  </head>
 
-  <div class="items">
-  <div class="name"></div>
-    Movie Guide
-  </div>
+    <div class="items">
+      <div class="banner">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/07/netflix-640x360.jpg" alt="film selection" class="banner-image">
+      </div>
 
-  <div class="social-icons">
-    <a href="https://www.netflix.com/" target="_blank">
-      Netflix
-    </a>
-    <a href="https://www.max.com/" target="_blank">
-      Max
-    </a>
-    <a href="https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F" target="_blank">
-      Hulu
-    </a>
-    <a href="https://www.imdb.com/tv/" target="_blank">
-      IMDB
-    </a>
-  </div>
+   
+      <div class="name">
+        Movie Guide
+      </div> 
+  
 
-  <div class="items">
-  <div class="link"></div>
-    <img
-      src="https://static1.pocketlintimages.com/wordpress/wp-content/uploads/139222-tv-news-feature-how-to-watch-netflix-on-tv-your-complete-guide-image10-herx9auuwr.jpg"
-      alt="Netflix on TV"
-      class="thumbnail"> 
-      <a target="_blank" href="https://www.netflix.com/">Most Popular Streaming Service
-      — Netflix</a>
-  </div>
+        <div class="social-icons">
+          <a href="https://www.netflix.com/" target="_blank">
+            Netflix
+          </a>
+          <a href="https://www.max.com/" target="_blank">
+            Max
+          </a>
+          <a href="https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F" target="_blank">
+            Hulu
+          </a>
+          <a href="https://www.imdb.com/tv/" target="_blank">
+            IMDB
+          </a>
+        </div>
 
-  <div class="items">
-    <div class="link"></div>
-    <img src="https://cdn.mos.cms.futurecdn.net/phsCPVhwnuuY5cy9Ack5t3.jpg"
-    alt="Max HBO Max"
-    class="thumbnail">
-    <a target="_blank"
-      href="https://www.max.com/">(previously known as HBO Max) — Max is a Streaming Service for Movies and TV shows
-      </a>
+    
+        <div class="link">
+          <img
+            src="https://static1.pocketlintimages.com/wordpress/wp-content/uploads/139222-tv-news-feature-how-to-watch-netflix-on-tv-your-complete-guide-image10-herx9auuwr.jpg"
+            alt="Netflix on TV"
+            class="thumbnail"> 
+            <a target="_blank" href="https://www.netflix.com/">
+              Most Popular Streaming Service — Netflix
+            </a>
+        </div>
+
+    
+        <div class="link">
+          <img src="https://cdn.mos.cms.futurecdn.net/phsCPVhwnuuY5cy9Ack5t3.jpg"
+          alt="Max HBO Max"
+          class="thumbnail">
+          <a target="_blank"
+            href="https://www.max.com/">(previously known as HBO Max) — Max is a Streaming Service for Movies and TV shows
+          </a>
+        </div>
+
+    
+        <div class="link">
+            <img
+              src="https://play-lh.googleusercontent.com/WUPendn3Rr-adgU8qax5SRz5Gp1uD8MRFcANwBq7Lb_eIkfKPfB1F5L5FXnyHp4AbGY=w526-h296-rw"
+              alt="Hulu"
+              class="thumbnail">
+            <a target="_blank" href="https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F">
+              Arguably best streaming service for TV shows — Hulu
+            </a>
+        </div>
+
+    
+        <div class="link">
+          <img
+            src="https://www.lifewire.com/thmb/RbocY4XParI3QFD_eaqFBRU-SeY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/imdb-what-to-watch-d3c2befe37d04ac5b2e22696464a13eb.png"
+            alt="IMDB"
+            class="thumbnail">
+          <a target="_blank" href="https://www.imdb.com/tv/">
+          Movie and TV show Release Dates and Rankings — IMDB</a>
+        </div>
+
+    
+      <div class="link">
+        <img src="https://daily.slickdeals.net/wp-content/uploads/2019/02/youtube-tv-slickdeals-hero-1.jpg"
+        alt="Youtube TV"
+        class="thumbnail">
+
+        <a target="_blank" href="https://tv.youtube.com/welcome/?gclid=CjwKCAjw5remBhBiEiwAxL2M9_5A2FY14TKCjcFPPYCZXzc3jHUFu-Zp1_H2-oaMCAvXX6-Onb2aMxoC-RMQAvD_BwE&gclsrc=aw.ds&utm_servlet=prod&rd_rsn=asi&zipcode=60473">
+          On Demand Cable/Streaming Service in One Package — Youtube TV</a>
+      </div>
+
+   
+      <div class="link">
+        <img
+          src="https://whatsondisneyplus.com/wp-content/uploads/2020/01/Disney-Plus-Logo_supplied_1536x864.jpg"
+          alt="Disney+"
+          class="thumbnail">
+
+        <a target="_blank" href="https://www.disneyplus.com/?gclid=CjwKCAjw5remBhBiEiwAxL2M90VGt5ido0pNWBL7d9d1BzeLz4AaDQor5DFOnECn2BKnr_wZ0fZquRoCoiwQAvD_BwE">
+          Streaming Service for Disney, National Geographic, and Many Other Children's Channels — Disney+</a>
+      </div>
     </div>
-
-  <div class="items">
-  <div class="link"></div>
-    <img
-      src="https://play-lh.googleusercontent.com/WUPendn3Rr-adgU8qax5SRz5Gp1uD8MRFcANwBq7Lb_eIkfKPfB1F5L5FXnyHp4AbGY=w526-h296-rw"
-      alt="Hulu"
-      class="thumbnail">
-    <a target="_blank" href="https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F">
-      Arguably best streaming service for TV shows — Hulu</a>
-    </div>
-
-  <div class="items">
-    <div class="link"></div>
-    <img
-      src="https://www.lifewire.com/thmb/RbocY4XParI3QFD_eaqFBRU-SeY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/imdb-what-to-watch-d3c2befe37d04ac5b2e22696464a13eb.png"
-      alt="IMDB"
-      class="thumbnail">
-    <a target="_blank" href="https://www.imdb.com/tv/">
-      Movie and TV show Release Dates and Rankings — IMDB</a>
-    </div>
-
-  <div class="items">
-  <div class="link"></div>
-    <img src="https://daily.slickdeals.net/wp-content/uploads/2019/02/youtube-tv-slickdeals-hero-1.jpg"
-    alt="Youtube TV"
-    class="thumbnail">
-
-    <a target="_blank" href="https://tv.youtube.com/welcome/?gclid=CjwKCAjw5remBhBiEiwAxL2M9_5A2FY14TKCjcFPPYCZXzc3jHUFu-Zp1_H2-oaMCAvXX6-Onb2aMxoC-RMQAvD_BwE&gclsrc=aw.ds&utm_servlet=prod&rd_rsn=asi&zipcode=60473">
-      On Demand Cable/Streaming Service in One Package — Youtube TV</a>
-  </div>
-
-  <div class="items">
-  <div class="link"></div>
-    <img
-      src="https://whatsondisneyplus.com/wp-content/uploads/2020/01/Disney-Plus-Logo_supplied_1536x864.jpg"
-      alt="Disney+"
-      class="thumbnail">
-
-    <a target="_blank" href="https://www.disneyplus.com/?gclid=CjwKCAjw5remBhBiEiwAxL2M90VGt5ido0pNWBL7d9d1BzeLz4AaDQor5DFOnECn2BKnr_wZ0fZquRoCoiwQAvD_BwE">
-      Streaming Service for Disney, National Geographic, and Many Other Children's Channels — Disney+</a>
-  </div>
-
-  <!-- Etc, for as many links as you want -->
-
-</body>
+    <!-- Etc, for as many links as you want -->
+  </body>
